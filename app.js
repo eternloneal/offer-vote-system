@@ -6,6 +6,7 @@
 const firebaseConfig = {
   apiKey: "AIzaSyAUa6YlMs6SddJqtPP6LAY9ADA_G62JBW4",
   authDomain: "offer-vote.firebaseapp.com",
+  databaseURL: "https://offer-vote-default-rtdb.asia-southeast1.firebasedatabase.app/",
   projectId: "offer-vote",
   storageBucket: "offer-vote.firebasestorage.app",
   messagingSenderId: "1078005821558",
@@ -382,4 +383,5 @@ function getOfferName(offer) {
         'offerC': 'Offer C（国企稳定岗）'
     };
     return names[offer] || offer;
+
 }
