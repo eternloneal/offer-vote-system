@@ -1,7 +1,7 @@
 // ============================
 // Firebase配置
 // ============================
-// 注意：这里需要替换成你自己的Firebase配置！
+
 
 const firebaseConfig = {
   apiKey: "AIzaSyAUa6YlMs6SddJqtPP6LAY9ADA_G62JBW4",
@@ -385,3 +385,4 @@ function getOfferName(offer) {
     return names[offer] || offer;
 
 }
+
